@@ -130,6 +130,7 @@ public class UserDaoImpl  implements UserDao {
                 continue;//结束当前的循环，继续下一次循环
             }
 
+
             //获取value
             String value = condition.get(key)[0];
             //判断value是否有值
